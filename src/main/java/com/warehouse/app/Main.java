@@ -1,5 +1,5 @@
 
-package com.warehouse;
+package com.warehouse.app;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
