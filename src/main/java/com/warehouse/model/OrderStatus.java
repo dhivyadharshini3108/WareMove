@@ -1,4 +1,12 @@
 package com.warehouse.model;
 
-public class OrderStatus {
+/**
+ * Represents the lifecycle status of a warehouse order.
+ */
+public enum OrderStatus {
+    PENDING,
+    ASSIGNED,
+    IN_PROGRESS,
+    COMPLETED,
+    CANCELLED
 }
